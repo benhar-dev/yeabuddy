@@ -1,0 +1,104 @@
+body{
+    background: url('../img/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: roboto;
+}
+.number-pad {
+  background-color: rgb(15 16 22 / 80%);
+  width: 320px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 535px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    box-sizing: content-box;
+}
+ .number-row {
+    margin: 0 auto;
+   width: 305px;
+    clear: both;
+    text-align: center;
+    box-sizing: content-box;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
+  .number-input {
+    width: 300px;
+    border: none;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-position: bottom 5px center;
+    background-size: calc(100% - 10px) 2px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00;
+    padding: 10px;
+    box-sizing: content-box;
+    font-size: 2rem;
+    height: 60px;
+    font-weight: bold;
+    color: #c0fef1;
+  }
+
+  .mini-btn {
+    cursor: pointer;
+    color: rgb(138, 138, 138);
+    box-sizing: content-box;
+    float: right;
+    user-select: none;
+  }
+
+  .digit {
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    margin: 4px;
+    box-sizing: content-box;
+    user-select: none;
+  }
+
+  .digit:active {
+    background-color: #e6e6e6;
+  }
+
+  .subdigit {
+    font-size: 0.8rem;
+    color: #dbd5d5;
+  }
+
+  .action-btn {
+    display: inline-block;
+    padding: 15px 30px;
+     margin: 4px;
+     width: 30px;
+    color: white;
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+    font-family: "Material Icons";
+    box-sizing: content-box;
+    user-select: none;
+  }
+
+  .action-btn:active {
+    background-color: #e6e6e6;
+  }
+
+  .call-btn {
+    background-color: #66bb6a;  
+  }
+
+  .call-btn:hover {
+    background-color: #81c784;
+  }
